@@ -13,3 +13,4 @@ qr.add_data('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 qr.make(fit=True)
 img = qr.make_image(fill_color="black", back_color="white").convert('RGB')
 img.save("sample.png")
+#e
